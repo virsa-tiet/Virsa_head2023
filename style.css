@@ -913,6 +913,11 @@ p + p {
     text-align: center;
     font-size: 12px;
   }
+  .card .card-info p {
+    width: 60px;
+    text-align: center;
+    font-size: 8px;
+  }
 }
 
 /* responsive  */
@@ -1160,3 +1165,4 @@ p {
     
   }
 }
+
