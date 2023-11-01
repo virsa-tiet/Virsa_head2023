@@ -877,6 +877,12 @@ p + p {
   .carddesign h1 {
     font-size: 20px; /* Adjust the font size for h1 element */
   }
+  .card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 180px;
+  }
 
   .carddesign {
     flex-direction: column; /* Stack cards vertically on smaller screens */
@@ -893,6 +899,7 @@ p + p {
   .card .card-info h1 {
     font-size: medium;
   }
+  
 }
 @media only screen and (min-width: 375px) and (max-width: 450px){
   .carddesign h1 {
@@ -900,11 +907,13 @@ p + p {
     font-size: 5px; /* Adjust the font size for h1 element */
   }
 
-  
+  .linkss{
+    padding-top:  50px;
+  }
   .card {
     width: 125px;
     height: 191px;
-    overflow: hidden; 
+    overflow: hidden;
     /* No need to specify display, justify-content, flex-direction, as they are inherited */
   }
 
@@ -917,6 +926,13 @@ p + p {
     width: 60px;
     text-align: center;
     font-size: 8px;
+  }
+
+  .card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 180px;
   }
 }
 
