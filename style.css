@@ -409,7 +409,7 @@ p + p {
   justify-content: center;
 }
 .container {
-  padding: 40px 80px;
+  padding: 40px 70px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -884,7 +884,7 @@ p + p {
   }
 
   .card {
-    width: 90%; /* Adjust card width to be responsive */
+    width: 100%; /* Adjust card width to be responsive */
     height: 200px;
      overflow: hidden; 
     /* No need to specify display, justify-content, flex-direction, as they are inherited */
@@ -892,6 +892,26 @@ p + p {
 
   .card .card-info h1 {
     font-size: medium;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 450px){
+  .carddesign h1 {
+    text-align: center;
+    font-size: 5px; /* Adjust the font size for h1 element */
+  }
+
+  
+  .card {
+    width: 125px;
+    height: 191px;
+    overflow: hidden; 
+    /* No need to specify display, justify-content, flex-direction, as they are inherited */
+  }
+
+  .card .card-info h1 {
+    width: 60px;
+    text-align: center;
+    font-size: 12px;
   }
 }
 
@@ -1127,7 +1147,7 @@ p {
     height: 300px;
   }
 }
-@media screen and (min-width: 425px) {
+@media only screen and (min-width: 375px) and (max-width: 450px) {
   .gens {
     display: flex;
     align-items: center;
